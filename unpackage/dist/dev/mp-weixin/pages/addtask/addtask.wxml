@@ -1,0 +1,1 @@
+<view><view>选择创建类型</view><uni-data-checkbox wx:if="{{b}}" u-i="b613e7ec-0" bind:__l="__l" bindupdateModelValue="{{a}}" u-p="{{b}}"></uni-data-checkbox><uni-data-select wx:if="{{d}}" u-i="b613e7ec-1" bind:__l="__l" bindupdateModelValue="{{c}}" u-p="{{d}}"></uni-data-select><button bindtap="{{e}}">创建</button></view>

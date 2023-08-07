@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/addtask/addtask",
+    "pages/index/index",
+    "pages/userCenter/userCenter",
+    "pages/editor/editor",
+    "pages/newTask/newTask",
+    "pages/message/message",
+    "pages/userTaskDetail/userTaskDetail",
+    "pages/draftBox/draftBox",
+    "pages/logintips/logintips",
+    "pages/register/register",
+    "pages/login/login",
+    "pages/chat/chat",
+    "pages/holdTask/holdTask",
+    "pages/taskDetail/taskDetail"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#333",
+    "color": "#8F8F94",
+    "selectedColor": "#f33e54",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/homeactive.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/addtask/addtask",
+        "iconPath": "static/icons/section.png",
+        "selectedIconPath": "static/icons/drawer.png",
+        "text": "添加"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "iconPath": "static/icons/badge.png",
+        "text": "聊天"
+      },
+      {
+        "pagePath": "pages/userCenter/userCenter",
+        "iconPath": "static/me.png",
+        "selectedIconPath": "static/meactive.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
